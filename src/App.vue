@@ -26,7 +26,7 @@
 export default {
   data() {
     return {
-      currentDogLink: ""
+      currentDogLink: "https://images.dog.ceo/breeds/chihuahua/n02085620_3407.jpg"
     };
   }
 };
