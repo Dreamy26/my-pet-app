@@ -17,12 +17,39 @@ export default {
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+img {
+  max-width: 100%;
+}
+
+h1 {
+  padding-bottom: 15px;
+}
+
+.dogs-layout {
+  width: 100%;
+  background: #fff center repeat;
+  background-image: url("https://github.com/FrontEndFoxes/projects/blob/main/petshop/images/bg3.jpg?raw=true");
+}
+
+.dogs-overlay {
+  width: 100%;
+  padding: 20px;
+  
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .dogs-overlay {
+    margin: 0;
+  }
+}
+
+.dog-card {
+  width: 100%;
+  max-width: 600px;
 }
 </style>
+
